@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* Code start */
+
+.container{
+  width: 450px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+input{
+  width: 100%;
+height: 30px;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+.todolist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todolist li{
+  padding: 5px 10px;
+}
+
+
